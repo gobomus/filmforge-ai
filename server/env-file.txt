@@ -1,0 +1,21 @@
+# Server settings
+PORT=3001
+HOST=localhost
+
+# LLM Provider settings
+# Options: 'openai', 'anthropic', 'localai'
+LLM_PROVIDER=openai
+
+# API key for selected provider
+LLM_API_KEY=your_api_key_here
+
+# Model settings
+LLM_MODEL=gpt-4
+LLM_TEMPERATURE=0.7
+LLM_MAX_TOKENS=4000
+
+# Local LLM endpoint (if using localai)
+LOCAL_LLM_ENDPOINT=http://localhost:8080/v1/completions
+
+# Storage settings
+PROJECTS_DIRECTORY=../data/projects
